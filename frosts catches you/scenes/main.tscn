@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/frosts catch you artti/backround/Nimetön.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://scenes/win.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/RandomSpawnEnemy.tscn" type="PackedScene" id=7]
 [ext_resource path="res://main.gd" type="Script" id=8]
+[ext_resource path="res://scenes/SpawnArea.gd" type="Script" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 84, 82, 0, 82, 0, 0, 84, 2 )
@@ -102,7 +103,8 @@ position = Vector2( 0.788444, 1.0177 )
 current = true
 
 [node name="SpawnArea" type="ReferenceRect" parent="."]
-margin_left = -2439.0
-margin_top = -934.0
-margin_right = -1440.0
-margin_bottom = -73.0
+margin_left = -643.0
+margin_top = -838.0
+margin_right = 356.0
+margin_bottom = 23.0
+script = ExtResource( 9 )
