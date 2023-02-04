@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Y2Mate (mp3cut.net) (2).mp3-ce8d3ec92345a9aae3edd9ac06fcd260.mp3str"
+
+[deps]
+
+source_file="res://music and sound effects/Y2Mate (mp3cut.net) (2).mp3"
+dest_files=[ "res://.import/Y2Mate (mp3cut.net) (2).mp3-ce8d3ec92345a9aae3edd9ac06fcd260.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
